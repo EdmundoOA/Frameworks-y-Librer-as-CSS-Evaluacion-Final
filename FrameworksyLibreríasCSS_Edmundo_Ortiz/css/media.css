@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px) {
+
+  .redes_sociales{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+  }
+  #logo{
+    margin: auto;
+  }
+  .estilo{
+    margin: auto;
+    width: auto;
+  }
+  .col-lg-3.esconder{
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+
+.blanco{
+  color:#fff;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+img{
+  padding: 15px;
+}
+.centrado{
+  text-align: center;
+}
+.customform{
+  padding-bottom: 15px;
+}
