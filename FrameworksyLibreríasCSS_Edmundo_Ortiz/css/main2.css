@@ -1,0 +1,105 @@
+
+.blanco{
+  color:#fff;
+}
+.crema{
+  color: #fffacd;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.custom-padding {
+  padding: 15px;
+}
+img.thumbnail{
+  padding: 0px;
+}
+.centrado{
+  text-align: center;
+}
+.customform{
+  padding-bottom: 15px;
+}
+.custompadding{
+  padding: 15px;
+}
+.custompadding2{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.custompadding3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.custompadding4{
+  padding-bottom: 50px;
+}
+.custompadding5{
+  padding-left: 15px;
+}
+ul.no-bullet a{
+  width: 100%;
+}
+.food{
+    padding: 2px;
+}
+.historial{
+  padding-left: 15px;
+}
+.bordado{
+  border-bottom-style: solid;
+  border-color: #000532;
+}
+.borde{
+  border-style: solid;
+  border-color: #000532;
+}
+.borde-derecho{
+  border-right-style: solid;
+  border-color: #000532;
+}
+textarea{
+  resize: none;
+}
+#recuadro{
+  background-color: rgba(168, 157, 132, 0.90);
+}
+.parallax {
+    /* The image used */
+    background-image: url("../images/imagen14.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alto{
+  height: 100%;
+}
+@media screen and (max-width: 992px) {
+
+.esconder{
+  display: none;
+}
+.alto{
+  height: 100px;
+  width: 100px;
+}
+
+}
+
+
+.navegacion{
+  background-color: grey;
+  box-shadow: none;
+}
+h2, h5{
+  color: #3498db;
+  text-shadow: black 2px 2px 2px;
+}
+.sombra{
+  filter: drop-shadow(5px 5px 5px #000);
+}

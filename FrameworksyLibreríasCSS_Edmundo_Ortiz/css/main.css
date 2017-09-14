@@ -9,7 +9,7 @@
     float: none;
     margin: 0 auto;
 }
-img{
+.custom-padding {
   padding: 15px;
 }
 img.thumbnail{
@@ -86,6 +86,58 @@ textarea{
 }
 .alto{
   height: 100px;
+  width: 100px;
 }
 
+}
+.parallax22 {
+    /* The image used */
+    background-color: red;
+    background-image: url("../images/imagen23.jpg");
+    /* Set a specific height */
+    height: 50%;
+    width: auto;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+  background: green url("../images/imagen23.jpg") right no-repeat;
+  position: absolute;
+}
+body {
+  background-color: grey;
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+html{
+  background-image: url("../images/imagen23.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navegacion{
+  background-color: grey;
+  box-shadow: none;
+}
+h2, h5{
+  color: #3498db;
+  text-shadow: black 2px 2px 2px;
+}
+.sombra{
+  filter: drop-shadow(5px 5px 5px #000);
+}
+p{
+  color: #fff;
+  text-shadow: black 1px 1px 1px;
 }
